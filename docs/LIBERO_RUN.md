@@ -72,7 +72,9 @@ bash scripts/LIBERO/DreamVLA/scratch_spatial.sh
 bash scripts/LIBERO/DreamVLA/scratch_goal.sh
 ```
 
+
 ### Eval
+You can download checkpoints from [huggingface](https://huggingface.co/WenyaoZhang/DreamVLA)
 ```bash
 # Evaluate DreamVLA on LIBERO benchmark
 bash scripts/LIBERO/DreamVLA/eval_long.sh

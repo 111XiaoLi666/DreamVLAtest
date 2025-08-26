@@ -85,9 +85,38 @@ This repository's code is based on the [Seer](https://github.com/OpenRobotLab/Se
 #### CALVIN ABC-D <a name="calvin abc-d"></a>
 - [Installation](docs/CALVIN_ABC-D_INSTALL.md)
 - [Running Code](docs/CALVIN_ABC-D_RUN.md)
+- CALVIN Result
+
+  | Method                  |        1 |        2 |        3 |        4 |        5 | Avg. Len. ↑ |
+  | :---------------------- | -------: | -------: | -------: | -------: | -------: | ----------: |
+  | Roboflamingo \[30]      |     82.4 |     61.9 |     46.6 |     33.1 |     23.1 |        2.47 |
+  | Susie \[118]            |     87.0 |     69.0 |     49.0 |     38.0 |     26.0 |        2.69 |
+  | GR-1 \[14]              |     85.4 |     71.2 |     59.6 |     49.7 |     40.1 |        3.06 |
+  | 3D Diffusor Actor \[93] |     92.2 |     78.7 |     63.9 |     51.2 |     41.3 |        3.27 |
+  | OpenVLA \[1]            |     91.3 |     77.8 |     62.0 |     52.1 |     43.1 |        3.26 |
+  | RoboDual \[119]         |     94.4 |     82.7 |     71.2 |     62.2 |     54.7 |        3.67 |
+  | UNIVLA \[120]           |     95.5 |     85.8 |     75.7 |     66.9 |     56.5 |        3.80 |
+  | Pi0 \[32]               |     93.8 |     82.3 |     70.4 |     61.6 |     59.9 |        3.82 |
+  | CLOVER \[121]           |     96.0 |     85.5 |     70.8 |     57.5 |     45.4 |        3.53 |
+  | UP-VLA \[57]            |     96.8 |     90.6 |     83.7 |     77.5 |     69.9 |        4.39 |
+  | Robovlm \[37]           |     98.0 |     93.6 |     85.4 |     77.8 |     70.4 |        4.25 |
+  | Seer \[56]              |     96.3 |     91.6 |     86.1 |     80.3 |     74.0 |        4.28 |
+  | VPP \[49]               |     95.7 |     91.2 |     86.3 |     81.0 |     75.0 |        4.29 |
+  | **DreamVLA (Ours)**     | **98.2** | **94.6** | **89.5** | **83.4** | **78.1** |    **4.44** |
+
+
 #### LIBERO <a name="libero"></a>
 - [Installation](docs/LIBERO_INSTALL.md)
 - [Running Code](docs/LIBERO_RUN.md)
+- LIBERO Result
+  | Methods                | LIBERO-Spatial | LIBERO-OBJECT | LIBERO-GOAL | LIBERO-LONG |  Average |
+  | :--------------------- | -------------: | ------------: | ----------: | ----------: | -------: |
+  | Diffusion Policy \[72] |           78.3 |          92.5 |        68.3 |        50.5 |     72.4 |
+  | Octo \[9]              |           78.9 |          85.7 |        84.6 |        51.1 |     75.1 |
+  | OpenVLA \[1]           |           84.7 |          88.4 |        79.2 |        53.7 |     76.5 |
+  | SpatialVLA \[31]       |           88.2 |          89.9 |        78.6 |        55.5 |     78.1 |
+  | **DreamVLA (Ours)**    |       **97.5** |      **94.0** |    **89.5** |    **89.5** | **92.6** |
+
 
 
 ## TODO
