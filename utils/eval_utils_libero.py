@@ -2,8 +2,8 @@ import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 os.environ['MKL_SERVICE_FORCE_INTEL'] = '1'
-os.environ["PYOPENGL_PLATFORM"] = "osmesa"
-os.environ['MUJOCO_GL'] = 'osmesa'
+os.environ["PYOPENGL_PLATFORM"] = "egl"
+os.environ['MUJOCO_GL'] = 'egl'
 
 from pathlib import Path
 import copy

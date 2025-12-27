@@ -234,8 +234,8 @@ def main(rank, port, num_worker, start_episode_idx=0, end_episode_idx=None):
         setup(rank, world_size=num_worker, port=port)
 
     global dataset_name
-    dataset_name = "libero_object" # "libero_10"
-    src_dir = f"/inspire/hdd/global_user/guchun-240107140023/LIBERO/{dataset_name}"
+    dataset_name = "libero_goal" # "libero_10"
+    src_dir = f"/root/autodl-tmp/{dataset_name}" 
     # tgt_dir = Path(f"/inspire/hdd/global_user/guchun-240107140023/LIBERO/{dataset_name}_converted")
     tgt_dir = Path(f"./{dataset_name}_converted")
     tgt_dir.mkdir(exist_ok=True) 
